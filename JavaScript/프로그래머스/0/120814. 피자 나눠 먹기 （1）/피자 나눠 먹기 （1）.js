@@ -1,9 +1,4 @@
-function solution(n) {
-    var answer = 0;
-    if (n % 7 == 0) {
-        answer = parseInt(n / 7);
-    } else {
-        answer = parseInt(n / 7) + 1;
-    }
+function solution(n) {    
+    var answer = n % 7 == 0 ? parseInt(n / 7) : parseInt(n / 7) + 1;
     return answer;
 }
