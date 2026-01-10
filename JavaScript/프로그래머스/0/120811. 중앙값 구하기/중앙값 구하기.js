@@ -1,6 +1,4 @@
 function solution(array) {
-    var answer = 0;
-    array.sort((a, b) => a - b);
-    answer = array[parseInt(array.length / 2)];
+    var answer = array.sort((a, b) => a - b)[parseInt(array.length / 2)];
     return answer;
 }
