@@ -1,2 +1,2 @@
 # C_TEST_PRACTICE
-Programmers Coding Test Practice
+Programmers : Coding Test Practice
